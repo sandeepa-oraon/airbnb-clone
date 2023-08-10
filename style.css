@@ -1,0 +1,411 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+body{
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt1, .txt2{
+    letter-spacing: 1px;
+}
+
+.header, .logo, .menu{
+    display: flex;
+}
+
+/* header */
+.header{
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.logo{
+    margin-left: 100px;
+    align-items: center;
+    color: red;
+}
+.logo-img{
+    height: 35px;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: tomato;
+}
+.search{
+    position: relative;
+    margin-left: 230px;
+}
+.search-text{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+    border:1px solid lightgray;
+}
+.search-icon{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+}
+.search-icons{
+    height: 40%;
+    color: white;
+    background-color: red;
+    margin:5px;
+}
+
+.home{
+    margin-left: 240px;
+}
+.home-btn{
+    border: none;
+    background-color: white;
+    width: 150px;
+}
+
+.menu{
+    align-items: center;
+    margin-left:15px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 8px;
+    width: 60px;
+}
+
+/* main body */
+
+.main-container1{
+    width: 1180px;
+    padding:10px 0px 0px 110px;
+}
+.container1-{
+    width: 1150px;
+}
+.txt1, .txt2{
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.main{
+    color: #000000;
+    margin-top: 0 ;
+    display: flex;
+    font-weight: bold;
+    font-size:13px;
+}
+.main-content, .share, .save{
+    display: flex;
+    align-items: center;
+}
+.share-save {
+    margin-left:490px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.share, .star{
+    margin-right: 20px;
+}
+
+/* image */
+.img{
+    display: flex;
+    margin: 20px 0;
+}
+.img-o{
+    height: 310px;
+    width: 600px;
+    margin-right: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.img-t, .img-f{
+    height: 152px;
+    width: 260px;
+}
+
+/* image end */
+
+.dis{
+    width:700px;
+}
+.container2-, .list{
+    display: flex;
+    align-items: center;
+}
+.lists, .list{
+    margin-right:30px ;
+    margin-top: 0;
+    font-size: small;
+}
+.image{
+    position: relative;
+    margin-left: 80px;
+}
+.id{
+    margin-left: 100px;
+}
+.pos{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.pos1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+hr{
+    height: 1px;
+    background-color: #dbdbdb;
+    border: none;
+    margin-left:0;
+    margin-top: 30px;
+    width: 700px;
+}
+
+.note{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.para{
+    margin-top: 25px;
+}
+.head{
+    margin: 0;
+    padding: 0;
+}
+.p{
+    color: rgb(197, 191, 191);
+    margin: 0;
+    padding: 0;
+    font-weight:lighter;
+    font-size: 14px;
+}
+
+.aircover{
+    display: flex;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0;
+}
+.air{
+    color: red;
+    margin: 5px 0;
+}
+.cover{
+    color: #000000;
+    margin: 5px 0;
+}
+.pa{
+    margin: 5px 0;
+}
+.card, .main-card, .flex-, .flex, .rating, .check{
+    display: flex;
+}
+.main-card{
+    width: 100%;
+}
+.first-card{
+    border: 1px solid lightgray;
+    width:200px;
+    height: 100px;
+    margin-right:10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Bedroom{
+    margin:10px 0 0 0;
+    padding: 0;
+}
+.Bedroom-{
+    margin:0px 0 10px 0;
+    padding: 0;
+}
+
+.first-block, .flex-box, .guest-booking{
+    display: flex;
+    align-items: center;
+}
+.box, .box1, .box2, .box3, .box4, .box5{
+    color: grey;
+    margin-left: 10px;
+}
+.bx, .box, .box1, .box2, .box3, .box4, .box5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.width1{
+    margin-left: 0px;
+}
+.box1{
+    margin-right: 200px;
+}
+.box2{
+    margin-right: 265px;
+}
+.box3{
+    margin-right: 150px;
+}
+.box4{
+    margin-right: 225px;
+}
+.box5{
+    margin-right: 75px;
+}
+.btnall{
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgb(92, 89, 89);
+    background-color: white;
+    margin-top: 30px;
+}
+
+.card1-{
+    position:sticky;
+    top: 90px;
+    font-size: 13px;
+    width: 350px;
+    margin-left: 43px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px lightgrey;
+    border: 1px solid lightgray;
+    height: 450px;
+    scroll-margin-top: 20px;
+}
+.flex-, .flex, .rating{
+    align-items: center;
+}
+.flex, .flex-{
+    justify-content: space-between;
+}
+.flex-{
+    font-size: 15px;
+}
+.checkin{
+    border: 1px solid black;
+    padding: 10px;
+    border-right: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px 0 0 0;
+    clear: both;
+}
+.checkout{
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    height: 40px;
+    border-radius: 0 10px 0 0;
+}
+.check-{
+    margin: 0;
+    padding: 0;
+}
+.guest-booking{
+    border: 1px solid black;
+    border-top: none;
+    padding: 10px;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+}
+.align-center{
+    text-align: center;
+}
+.btn-{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #ff385c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* review */
+.rating-review{
+    display: flex;
+    align-items: center;
+}
+.-review-{
+    font-weight: lighter;
+    color: #000000;
+    font-size: 18px;
+    margin: 30px 0 30px 10px;
+}
+.review-, .one, .two{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.review-left, .review-right{
+    width: 45%;
+}
+.review-right{
+    margin-left: 74px;
+}
+.one, .two{
+    justify-content: space-between;
+}
+.r{
+    margin: 5px;
+    padding: 0;
+}
+.rating1{
+    width: 150px;
+    height: 4px;
+    background-color: #000000;
+    margin-right: 10px;
+}
+
+.-ppl{
+    margin-top: 40px;
+    display: flex;
+}
+.ppl{
+    margin-right: 70px;
+    color: rgb(97, 93, 93);
+}
+.id-ppl{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.id-ppl_{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.id-ppl-name{
+    margin-left: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+@media (max-width:1000px){
+    
+    .card1- {
+        width: 350px;
+        height: 450px;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-left: 43px;
+        box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    }
+    .-card-{
+        margin-left: 30px;
+    }
+}
+
